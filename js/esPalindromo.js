@@ -12,12 +12,9 @@ function esPalindromo(cadena) {
     .reverse()
     .join("");
 
-  if (palindromo1 === palindromo2) {
-    return true;
-  } else {
-    return false;
-  }
-
+  return palindromo1 === palindromo2;
 }
+
+
 
 
